@@ -19,6 +19,7 @@
     margin-left: -250px;
     overflow-y: auto;
     background: #ECECEC;
+    opacity: 0.4;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -124,6 +125,15 @@
 .btn:hover
 {
     background:none;
+}
+#menu-toggle
+{
+    text-decoration: none;
+    font-family: GlacialIndifference-Regular;
+    font-size: 20px;
+    color: #000;
+    position: fixed;
+    font-style: italic;
 }
 
 
