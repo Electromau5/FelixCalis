@@ -15,6 +15,8 @@
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require masonry/jquery.masonry
+//= require masonry/jquery.event-drag
 //= require masonry/jquery.imagesloaded.min
+//= require masonry/jquery.infinitescroll.min
 //= require sidebar
 //= require_tree .

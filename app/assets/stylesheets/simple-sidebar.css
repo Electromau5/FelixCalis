@@ -121,5 +121,10 @@
     border:1px solid black;
     box-shadow:none;
 }
+.btn:hover
+{
+    background:none;
+}
+
 
    
