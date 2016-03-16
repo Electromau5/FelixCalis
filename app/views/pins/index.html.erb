@@ -1,2 +1,12 @@
   <%= render 'layouts/sidebar' %>
-
+  <div class = "container-fluid">
+    <div class = "row">
+      <% @pin.each do |pin| %>
+        <div class = "col-xs-6 col-md-3">
+          <div class = "thumbnail">
+            <%= link_to image_tag(pin.image.url(:medium)), pin %>
+          </div>
+         </div>
+      <% end %>
+    </div>
+  </div>
