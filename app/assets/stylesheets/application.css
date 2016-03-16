@@ -15,6 +15,7 @@
  *= require 'masonry/centered'
  *= require 'masonry/fluid'
  *= require 'masonry/gutters'
+ *= require 'masonry/transitions'
  *= require 'masonry/infinitescroll'
  *= require_tree .
  */
