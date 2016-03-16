@@ -1,3 +1,12 @@
 <%= render 'layouts/sidebar' %>
-
+<div id="pins" class="transitions-enabled">
+  <% @pin.each do |pin| %>
+    <%= link_to pin.image.url(:large), class: :popup_link, target: :_blank do %>
+    <div class="box">
+      <%= image_tag pin.image.url(:medium) %>
+    </div>
+  <% end %>
+  <% end %>
+</div>
+  <div id="popup"></div>
 
