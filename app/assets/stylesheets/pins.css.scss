@@ -1,13 +1,22 @@
 #pins {
-  margin-left: 150px;
-  margin-top: 11px;
+  margin-left: 120px;
+  margin-top: 25px;
+ 
 }
 
 .box {
-  margin: 0px 0px 10px 10px;
+  margin: -3px;
   width: 300px;
+  border-radius: 0;
+  background-color: #F5F5F5;
+
 }
 
 .box img {
   width: 100%;
+  
+}
+
+.box img:hover {
+  cursor: pointer;
 }
