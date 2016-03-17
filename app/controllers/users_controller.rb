@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 
-	before_action :set_user, only: [:edit, :update, :about, :contact, :destroy]
+	before_action :set_user, only: [:edit, :update, :show, :contact, :destroy]
 	#before_action :require_admin, only: [:index]
 
 	def new
