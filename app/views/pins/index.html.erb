@@ -3,7 +3,7 @@
   <% @pin.each do |pin| %>
     <%= link_to pin.image.url(:large), class: :popup_link, target: :_blank do %>
     <div class="box">
-      <%= image_tag pin.image.url(:medium) %>
+      <%= image_tag pin.image.url(:large) %>
     </div>
   <% end %>
   <% end %>
