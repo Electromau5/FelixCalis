@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
 
 	before_action :set_user, only: [:edit, :update, :show, :contact, :destroy]
-	before_action :require_admin, except: [:show, :contact]
+	before_action :require_admin, except: [:show, :contact, :new, :create]
 
 	def new
 		@user = User.new
