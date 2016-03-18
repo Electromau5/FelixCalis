@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'info/about'
+
+  get 'info/contacts'
+
   resources :pins
+  
   resources :users
 
   root 'pins#index'

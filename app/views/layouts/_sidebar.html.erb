@@ -2,8 +2,8 @@
     <div id="sidebar-wrapper"style="background-color: #ffffff">
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
-            <li style="font-family:GlacialIndifference-Regular;font-size:18px"><%= link_to 'About me', '#' %></li>
-            <li style="font-family:GlacialIndifference-Regular;font-size:18px"><%= link_to 'Contact', '#' %></li><br />
+            <li style="font-family:GlacialIndifference-Regular;font-size:18px"><%= link_to 'About me', info_about_path %></li>
+            <li style="font-family:GlacialIndifference-Regular;font-size:18px"><%= link_to 'Contact', info_contacts_path %></li><br />
             <li><%= link_to image_tag("instagram-icon.png"), 'https://www.instagram.com/felixcalis/' %></li> 
             <li><%= link_to image_tag("pinterest-icon.png"), 'https://www.pinterest.com/felixcalis7/' %></li>
 
@@ -19,4 +19,6 @@
             </div>
     </div>
 </div>
-
+    <% if logged_in? && current_user.admin %>
+            <%= link_to 'Logout', logout_path, method: :delete, :class => "logout" %>
+        <% end %>

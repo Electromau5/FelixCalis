@@ -1,4 +1,7 @@
 class PinsController < ApplicationController
+
+	before_action :require_admin, except: [:index]
+
 	def index
 		@pin = Pin.all
 	end

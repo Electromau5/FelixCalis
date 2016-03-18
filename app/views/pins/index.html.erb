@@ -4,6 +4,10 @@
     <%= link_to pin.image.url(:large), class: :popup_link, target: :_blank do %>
     <div class="box">
       <%= image_tag pin.image.url(:large) %>
+       <% if logged_in? && current_user.admin %>
+      		<%= link_to 'EDIT', edit_pin_path(pin), :id => "editpins" %>
+      		<%= link_to 'DELETE', pin, method: :delete,  data: { confirm: 'Are you sure?' }, :id => "editpins" %>
+      	<% end %>
     </div>
   <% end %>
   <% end %>

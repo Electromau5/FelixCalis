@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
 
 	before_action :set_user, only: [:edit, :update, :show, :contact, :destroy]
-	#before_action :require_admin, only: [:index]
+	before_action :require_admin, except: [:show, :contact]
 
 	def new
 		@user = User.new
@@ -10,7 +10,7 @@ class UsersController < ApplicationController
 	def create
 		@user = User.new(user_params)
 			if @user.save
-				#session[:seller_id] = @seller.id
+				session[:seller_id] = @seller.id
 				redirect_to user_path(@user)
 			else
 				render 'new'
