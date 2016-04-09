@@ -7,8 +7,8 @@
 .box {
   margin: -3px;
   width: 300px;
-  border-radius: 0;
-  background-color: #ededed;
+  border-radius: 1;
+  background-color: #fff;
   //display: inline-block;
 
 }
@@ -32,3 +32,15 @@
   margin-right: 5px;
   display: inline;
 }
+
+.fancybox-close 
+{
+  background-image: url('cross.png');
+  margin-bottom: -10px;
+}
+
+.fancy-close:hover
+{
+  mouse: cursor;
+}
+

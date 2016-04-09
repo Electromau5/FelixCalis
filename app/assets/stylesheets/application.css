@@ -17,5 +17,6 @@
  *= require 'masonry/gutters'
  *= require 'masonry/transitions'
  *= require 'masonry/infinitescroll'
+ *= require fancybox
  *= require_tree .
  */

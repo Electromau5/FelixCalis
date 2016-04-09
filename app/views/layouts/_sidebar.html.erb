@@ -2,8 +2,11 @@
     <div id="sidebar-wrapper"style="background-color: #ffffff">
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
-            <li style="font-family:GlacialIndifference-Regular;font-size:18px"><%= link_to 'About me', info_about_path %></li>
-            <li style="font-family:GlacialIndifference-Regular;font-size:18px"><%= link_to 'Contact', info_contacts_path %></li><br />
+            <li><%= link_to 'About Me', info_about_path, :class => "menu-item" %></li><br />
+            <li><%= link_to 'Contact', info_contacts_path, :class => "menu-item" %></li><br />
+            <li><%= link_to 'Events', info_contacts_path, :class => "menu-item" %></li><br />
+            <li><%= link_to 'Services', info_contacts_path, :class => "menu-item" %></li><br />
+            <li><%= link_to 'Partners', info_contacts_path, :class => "menu-item" %></li><br />
             <li><%= link_to image_tag("instagram-icon.png"), 'https://www.instagram.com/felixcalis/' %></li> 
             <li><%= link_to image_tag("pinterest-icon.png"), 'https://www.pinterest.com/felixcalis7/' %></li>
 
@@ -13,7 +16,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <%= link_to 'Felix Calis', root_path, :id => "menu-toggle" %>
+                        <%= link_to 'FELIX CALIS', root_path, :id => "menu-toggle" %>
                     </div>
                 </div>
             </div>

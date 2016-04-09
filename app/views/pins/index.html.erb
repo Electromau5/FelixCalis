@@ -1,16 +1,18 @@
 <%= render 'layouts/sidebar' %>
+<div class="container-fluid">
 <div id="pins" class="transitions-enabled">
   <% @pin.each do |pin| %>
-    <%= link_to pin.image.url(:large), class: :popup_link, target: :_blank do %>
+   <%= link_to pin.image.url(:large), :class => 'fancybox', :rel => 'group' do %>
     <div class="box">
-      <%= image_tag pin.image.url(:large) %>
+        <%= image_tag pin.image.url(:large) %>
+    <% end %>
        <% if logged_in? && current_user.admin %>
-      		<%= link_to 'EDIT', edit_pin_path(pin), :id => "editpins" %>
-      		<%= link_to 'DELETE', pin, method: :delete,  data: { confirm: 'Are you sure?' }, :id => "editpins" %>
-      	<% end %>
+          <%= link_to 'EDIT', edit_pin_path(pin), :id => "editpins" %>
+          <%= link_to 'DELETE', pin, method: :delete,  data: { confirm: 'Are you sure?' }, :id => "editpins" %>
+        <% end %>
     </div>
-  <% end %>
   <% end %>
 </div>
   <div id="popup"></div>
+</div>
 

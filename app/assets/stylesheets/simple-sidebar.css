@@ -19,7 +19,7 @@
     margin-left: -250px;
     overflow-y: auto;
     background: #ECECEC;
-    opacity: 0.4;
+    opacity: 0.6;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -129,13 +129,21 @@
 #menu-toggle
 {
     text-decoration: none;
-    font-family: GlacialIndifference-Regular;
+    font-family: 'SciFly-Sans', sans-serif;
     font-size: 30px;
-    color: #000;
+    background: linear-gradient(to right, black ,gray );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     position: fixed;
     font-weight: light;
 
 }
-
+.menu-item
+{
+    font-family: 'Vanity-Light', sans-serif;
+    font-size:23px;
+    color: #000;
+ 
+}
 
    

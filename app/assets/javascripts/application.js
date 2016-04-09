@@ -17,5 +17,6 @@
 //= require masonry/jquery.imagesloaded.min
 //= require masonry/jquery.infinitescroll.min
 //= require sidebar
+//= require fancybox
 //= require_tree .
 
