@@ -12,11 +12,6 @@
  *
  *= require_self
  *= require 'masonry/basic'
- *= require 'masonry/centered'
- *= require 'masonry/fluid'
- *= require 'masonry/gutters'
- *= require 'masonry/transitions'
- *= require 'masonry/infinitescroll'
  *= require fancybox
  *= require_tree .
  */

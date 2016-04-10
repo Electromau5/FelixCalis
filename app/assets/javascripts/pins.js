@@ -1,6 +1,14 @@
+$(function() {
+  return $('#pins').imagesLoaded(function() {
+    return $('#pins').masonry({
+      itemSelector: '.box',
+      isFitWidth: true
+    });
+  });
+});
 $(document).ready(function() {
   $(".fancybox").fancybox({
-  		padding: 0,
+      padding: 0,
       openEffect  : 'fade',
       closeEffect : 'fade',
       arrows : true,
@@ -11,6 +19,6 @@ $(document).ready(function() {
                 }
                   }
                 }
-
-  });
+}); 
 });
+

@@ -136,6 +136,7 @@
     -webkit-text-fill-color: transparent;
     position: fixed;
     font-weight: light;
+    z-index: 1;
 
 }
 .menu-item

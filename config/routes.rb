@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   
   resources :users
 
-  root 'pins#index'
+  root 'home#landing'
 
    get 'admin', to: 'sessions#new'
    post 'admin', to: 'sessions#create'

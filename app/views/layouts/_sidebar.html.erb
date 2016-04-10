@@ -23,6 +23,6 @@
     </div>
 </div>
     <% if logged_in? && current_user.admin %>
-            <%= link_to 'Add Image', new_pin_path, :class => "logout" %>
-            <%= link_to 'Logout', logout_path, method: :delete, :class => "logout" %>
+            <%= link_to 'Add Image', new_pin_path, :id => "logout" %>
+            <%= link_to 'Logout', logout_path, method: :delete, :id => "logout" %>
         <% end %>

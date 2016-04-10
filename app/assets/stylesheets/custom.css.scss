@@ -17,7 +17,7 @@ body
 	background: #fff;
 }
 
-.logout
+#logout
 {
 	float: right;
 	padding: 9px;
@@ -28,10 +28,11 @@ body
 	font-size: 15px;
 }
 
-.logout:hover 
+#logout:hover 
 {
 	text-decoration: none;
 }
+
 .back
 {
 	color: #6b6b6b;
