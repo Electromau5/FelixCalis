@@ -1,3 +1,5 @@
+
+
 #wrapper {
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
@@ -18,7 +20,6 @@
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #ECECEC;
     opacity: 0.6;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -28,6 +29,7 @@
 
 #wrapper.toggled #sidebar-wrapper {
     width: 250px;
+    background-color: #DDCC00;
 }
 
 #page-content-wrapper {
@@ -141,10 +143,8 @@
 }
 .menu-item
 {
-    font-family: 'Vanity-Light', sans-serif;
-    font-size:23px;
-    color: #000;
- 
+    font-family: 'SciFly-Sans', sans-serif;
+    font-size:20px;
 }
 
    
