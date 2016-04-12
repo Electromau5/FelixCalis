@@ -17,7 +17,7 @@ gem 'paperclip', '~> 4.3', '>= 4.3.3'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'bcrypt', '~> 3.1', '>= 3.1.10'
 gem 'fancybox2-rails'
-gem 'aws-sdk', '~> 2'
+gem 'aws-sdk', '< 2.0'
 
 group :development, :test do
   gem 'byebug'
