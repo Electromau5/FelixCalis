@@ -4,13 +4,12 @@ Rails.application.routes.draw do
 
   get 'info/contacts'
 
-  get 'info/events'
-
-  get 'info/services'
-
-  get 'info/partners'
-
+  
   resources :pins
+
+  resources :klicks
+
+  resources :runways
   
   resources :users
 

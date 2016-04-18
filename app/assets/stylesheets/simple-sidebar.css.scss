@@ -179,4 +179,20 @@
     font-size:20px;
 }
 
+#klick
+{
+    text-decoration: none;
+    font-family: "Vanity-LightItalic", sans-serif;
+    font-size: 25px;
+    background: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: fixed;
+    font-style: italic;
+    font-weight: thin;
+    z-index: 1;
+    display: inline;
+    margin-left: -8px; 
+}
+
    
