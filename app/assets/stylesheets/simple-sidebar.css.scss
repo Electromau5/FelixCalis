@@ -142,6 +142,36 @@
     display: inline;
 
 }
+.menu-toggle2
+{
+    text-decoration: none;
+    font-family: helvetica, Arial, sans-serif;
+    font-size: 30px;
+    background: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: fixed;
+    font-weight: regular;
+    z-index: 1;
+    display: inline;
+    margin-left:64%;
+
+}
+.menu-toggle3
+{
+    text-decoration: none;
+    font-family: helvetica, Arial, sans-serif;
+    font-size: 30px;
+    background: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: fixed;
+    font-weight: regular;
+    z-index: 1;
+    display: inline;
+    margin-left:48%;
+
+}
 .menu-item
 {
     font-family: 'SciFly-Sans', sans-serif;
