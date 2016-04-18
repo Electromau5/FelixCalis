@@ -131,13 +131,13 @@
 #menu-toggle
 {
     text-decoration: none;
-    font-family: 'SciFly-Sans', sans-serif;
+    font-family: helvetica, Arial, sans-serif;
     font-size: 30px;
-    background: linear-gradient(to right, black ,gray );
+    background: #000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: fixed;
-    font-weight: light;
+    font-weight: regular;
     z-index: 1;
 
 }
