@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   
   resources :users
 
-  root 'info#home'
+  root 'pins#index'
 
    get 'admin', to: 'sessions#new'
    post 'admin', to: 'sessions#create'
